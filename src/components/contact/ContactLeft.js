@@ -11,23 +11,22 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Sumit Kumar</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Front-End Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        As a front-end developer, I specialize in creating engaging and user-friendly interfaces for websites and web applications. I possess a deep understanding of HTML, CSS, and JavaScript, along with proficiency in modern front-end frameworks and libraries such as React.js.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 7644960440</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">sumitkrsshsmznr@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">Get In Touch On</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
             <FaFacebookF />

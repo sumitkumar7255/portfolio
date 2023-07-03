@@ -10,8 +10,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
+      <div style={{display:"flex"}}>
+        <img src={logo} alt="logo" /><span style={{display:"flex", marginLeft:"10px",alignItems:"center",justifyContent:"center", fontWeight:"bold", cursor:"pointer", color:"red"}}> <h2>Sumit</h2></span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I am seeking a role in a company where I can contribute my ideas and be mentored towards a successful career. Seeking a challenging position in a reputed organization where I can learn new skills expend my knowledge, and leverage my learnings. To get an opportunity where I can make the best of my potential and contribute to the organization’s growth.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -72,7 +70,7 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
+                  Get In Touch With Me On
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
